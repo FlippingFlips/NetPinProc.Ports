@@ -21,7 +21,7 @@
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 		<IncludeSource>True</IncludeSource>
 		<PackageIcon>pinball.png</PackageIcon>
-		<PackageOutputPath>.nuget</PackageOutputPath>
+		<PackageOutputPath>../.nuget</PackageOutputPath>
 	</PropertyGroup>
 
 	<ItemGroup>
