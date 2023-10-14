@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<Platforms>x86</Platforms>
+		<VersionSuffix>1.0.1</VersionSuffix>
+		<Description>WSLEDDriver for P-ROC by Compy / MPF</Description>
+		<Authors>Jimmy Lipham, David Horsefield</Authors>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<PackageVersion>$(VersionSuffix)</PackageVersion>
+		<AssemblyVersion>$(VersionSuffix)</AssemblyVersion>
+		<FileVersion>$(VersionSuffix)</FileVersion>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<IncludeSource>True</IncludeSource>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<IncludeSource>True</IncludeSource>
+		<PackageIcon>pinball.png</PackageIcon>
+		<PackageOutputPath>.nuget</PackageOutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="System.IO.Ports" Version="5.0.1" />
+	</ItemGroup>
+
+	<!--LINKED PROJECT FILES-->
+	<ItemGroup>
+		<None Include="../../pinball.png" Pack="true" PackagePath="\" />
+		<None Include="../../README.md" Pack="true" PackagePath="\" />
+		<None Include="../../LICENSE.md" Pack="true" PackagePath="\" />
+		<None Include="../../.github/workflows/netpinproc.ports.wsled.release-nuget.yml" Pack="true" PackagePath="\" />
+	</ItemGroup>
+	
+</Project>

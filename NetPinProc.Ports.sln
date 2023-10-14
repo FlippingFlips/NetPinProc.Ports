@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetPinProc.Ports.WSLED", "src\NetPinProc.Ports.WSLED\NetPinProc.Ports.WSLED.csproj", "{6190F24C-F361-4312-99AB-2549608B6E04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6190F24C-F361-4312-99AB-2549608B6E04}.Debug|x86.ActiveCfg = Debug|x86
+		{6190F24C-F361-4312-99AB-2549608B6E04}.Debug|x86.Build.0 = Debug|x86
+		{6190F24C-F361-4312-99AB-2549608B6E04}.Release|x86.ActiveCfg = Release|x86
+		{6190F24C-F361-4312-99AB-2549608B6E04}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
